@@ -14,16 +14,16 @@ class VeryHeader extends Component {
   render() {
     return (
       <div className="very-header-container">
-        <div className="doge_logo_holds">
-          <Link to="/" className="doge_logo_link">
-            <img src={require('../../img/MultiDoge.png')} alt="Doge Logo" className="doge_logo_img" />
-          </Link>
-          <p className="doge-logo-writespeak"><strong>Doge Learn How Codez</strong></p>
-        </div>
         <nav className="wow_such_nav_bar">
-          <Link className="wow_such_nav_link" to="/">Home</Link>
-          <Link className="wow_such_nav_link" to="wow">ShortCodez</Link>
-          <Link className="wow_such_nav_link" to="muchcode">FullCodez</Link>
+          <div className="link-wrapper">
+            <Link className="wow_such_nav_link" to="/">home</Link>
+          </div>
+          <div className="link-wrapper">
+            <Link className="wow_such_nav_link" to="wow">short answer</Link>
+          </div>
+          <div className="link-wrapper">
+            <Link className="wow_such_nav_link" to="muchcode">code</Link>
+          </div>
         </nav>
       </div>
     )

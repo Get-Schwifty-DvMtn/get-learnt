@@ -4,7 +4,8 @@
 // https://github.com/ajaxorg/ace
 // http://codemirror.net/index.html
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+
 
 import '../../much_flashy/CodezForEnter.css';
 
@@ -21,7 +22,9 @@ class CodezForEnter extends Component {
   render() {
     return (
       <div className="plz-hold codez-for-enter-wrapper">
-        <textArea type="text" className="codez_words"></textArea>
+        <textArea type="text" className="codez_words">
+
+        </textArea>
       </div>
     )
   }

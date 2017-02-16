@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre|Taviraj|Work+Sans');
+
+.fonts {
+  /*font groupings, first font is for big words, second is for normal words*/
+  font-family: 'Work Sans', sans-serif;
+  font-family: 'Proza Libre', sans-serif;
+
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Taviraj', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+h4, h5, h6 {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.wow-home-holdz {
+
+  width: 100vw;
+  height: 93vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.such-amaze-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.amaze-wow-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amaze-wow-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.placeholder {
+  height: 9vh;
+}
+
+
+
+
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: black;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}

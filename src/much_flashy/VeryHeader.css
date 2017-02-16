@@ -1,10 +1,10 @@
 .very-header-container {
   height: 7vh;
   width: 100vw;
-  background-color: gray;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .doge_logo_holds{
@@ -26,19 +26,26 @@
 }
 
 .wow_such_nav_bar {
- 
-  width: 75%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
+.link-wrapper{
+  width: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wow_such_nav_link {
   text-decoration: none;
+  color: black;
 }
 
 .wow_such_nav_link:hover {
-  font-size: 24px;
-  color: yellow;
+  font-size: 20px;
+  /*color: yellow;*/
+  text-transform: uppercase;
 }

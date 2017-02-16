@@ -17,9 +17,10 @@ class ForShowRezult extends Component {
 
   render() {
     return (
-      <div className="plz-hold for-show-wrapper"> 
-          <div className="wow_divider"></div>
-          <div className="test_wow"></div>
+      <div className="plz-hold for-show-wrapper">
+        <div className="wow_divider"></div>
+        <div className="test_wow">
+        </div>
       </div>
     )
   }
