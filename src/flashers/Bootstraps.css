@@ -1,0 +1,19 @@
+/*This page will be used for standard stylings across the site. Much like what materialize or bootstrap would do*/
+
+/*component containers*/
+.plz-hold {
+  height: 300px;
+  width: 50vw;
+  background-color: #32dd4e;
+}
+
+
+/*Input*/
+.enpoot {
+
+}
+
+/*H(1, 2, 3, 4, 5, 6)*/
+.big-mctitle {
+
+}
