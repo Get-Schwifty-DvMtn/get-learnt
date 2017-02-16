@@ -1,0 +1,14 @@
+.codez-for-enter-wrapper {
+  background-color: green;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.codez_words {
+  background-color: purple;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  font-family: Hack, monospace, Courier New, Courier;
+}

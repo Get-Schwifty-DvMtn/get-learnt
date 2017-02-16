@@ -3,10 +3,10 @@ import React, {Component} from 'react';
 //my files
 import CodezForEnter from './CodezForEnter';
 import ForShowRezult from './ForShowRezult';
-import ShortCodez from './ShortCodez';
+// import ShortCodez from './ShortCodez';
 
 // my css
-import '../../flashers/FullCodez_Index.css';
+import '../../much_flashy/FullCodez_Index.css';
 
 class FullCodezIndex extends Component {
   constructor(props) {

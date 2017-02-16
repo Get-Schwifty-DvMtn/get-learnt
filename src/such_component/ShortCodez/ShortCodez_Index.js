@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+import MakeAskQuestion from './MakeAskQuestion.js';
+import WowSuchAnswer from './WowSuchAnswer.js';
+
+
 class ShortCodez extends Component {
 
   constructor(props) {
@@ -14,10 +18,10 @@ class ShortCodez extends Component {
     return (
       <div className="plz-hold short-codez-wrapper">
         <div className="moar-qs">
-          <h3 className="big-mctitle moar-qs-title">Make ask questions for this space</h3>
+          <MakeAskQuestion />
         </div>
         <div className="answer-place">
-          <input className="enpoot answer-place-enpoot" type="text" />
+          <WowSuchAnswer />
         </div>
       </div>
     )

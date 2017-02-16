@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import VeryHeader from './components/jonHeder/VeryHeader';
-import FullCodezIndex from './components/FullCodez/FullCodez_Index';
+import VeryHeader from './such_component/jonHeder/VeryHeader';
 import './App.css';
 
 class App extends Component {
@@ -11,7 +10,9 @@ class App extends Component {
         <div className="App-header">
           <VeryHeader />
         </div>
-        <FullCodezIndex />
+        <div className="children-container">
+            {this.props.children}
+        </div>
       </div>
     );
   }
