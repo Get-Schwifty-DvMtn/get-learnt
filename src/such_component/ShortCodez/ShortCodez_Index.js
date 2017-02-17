@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import MakeAskQuestion from './MakeAskQuestion.js';
 import WowSuchAnswer from './WowSuchAnswer.js';
 
+import '../../much_flashy/ShortCodez_Index.css';
 
 class ShortCodez extends Component {
 

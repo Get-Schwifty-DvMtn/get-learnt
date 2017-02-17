@@ -2,32 +2,40 @@
 
 .fonts {
   /*font groupings, first font is for big words, second is for normal words*/
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;  /*I like this group better*/
   font-family: 'Proza Libre', sans-serif;
 
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Taviraj', serif;
 }
 
-h1, h2, h3 {
+/*.big-words {
   font-family: 'Work Sans', sans-serif;
 }
 
+.spaced-words {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vh;
+}
 
-h4, h5, h6 {
+.small-words {
   font-family: 'Proza Libre', sans-serif;
 }
 
-.wow-home-holdz {
+.no-margin{
+  margin:.2vh;
+  padding:.2vh;
+}*/
 
+.wow-home-holdz {
   width: 100vw;
   height: 93vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .such-amaze-type {
@@ -54,54 +62,7 @@ h4, h5, h6 {
   height: 9vh;
 }
 
-
-
-
-
-.arrows {
-	width: 60px;
-	height: 72px;
-	position: absolute;
-	left: 50%;
-	margin-left: -30px;
-	bottom: 20px;
-}
-
-.arrows path {
-	stroke: black;
-	fill: transparent;
-	stroke-width: 1px;	
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
-}
-
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-@-webkit-keyframes arrow /*Safari and Chrome*/
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-.arrows path.a1 {
-	animation-delay:-1s;
-	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
-}
-
-.arrows path.a2 {
-	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-}
-
-.arrows path.a3 {	
-	animation-delay:0s;
-	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+.links {
+  text-decoration: none;
+  color: black;
 }

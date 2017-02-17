@@ -1,5 +1,34 @@
 /*This page will be used for standard stylings across the site. Much like what materialize or bootstrap would do*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre|Taviraj|Work+Sans');
 
+.fonts {
+  /*font groupings, first font is for big words, second is for normal words*/
+  font-family: 'Work Sans', sans-serif;  /*I like this group better*/
+  font-family: 'Proza Libre', sans-serif;
+
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Taviraj', serif;
+}
+
+.big-words {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.spaced-words {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vh;
+}
+
+.small-words {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.no-margin{
+  margin:.2vh;
+  padding:.2vh;
+}
 
 /*component containers*/
 .plz-hold {
@@ -10,6 +39,10 @@
 /*Input*/
 .enpoot {
 
+}
+
+.enpoot:hover{
+  outline: none;
 }
 
 /*H(1, 2, 3, 4, 5, 6)*/

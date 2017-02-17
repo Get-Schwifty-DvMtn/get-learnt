@@ -1,6 +1,7 @@
 .full-codez-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
+  height: 93vh;
 }

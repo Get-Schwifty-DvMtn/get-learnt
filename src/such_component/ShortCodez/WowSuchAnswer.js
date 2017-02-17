@@ -14,7 +14,7 @@ class WowSuchAnswer extends Component {
   render() {
     return (
       <div className="wow-such-answer-holdz plz-hold">
-        <input type="text" />
+        <input type="text" className="enpoot"/>
       </div>
     )
   }

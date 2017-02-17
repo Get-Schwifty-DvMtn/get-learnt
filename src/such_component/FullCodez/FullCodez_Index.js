@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+
 
 //my files
 import CodezForEnter from './CodezForEnter';

@@ -2,7 +2,7 @@
   background-color: green;
   color: white;
   width: 100vw;
-  height: 100vh;
+  height: 93vh;
 }
 
 .codez_words {
@@ -11,4 +11,5 @@
   height: 100%;
   width: 100%;
   font-family: Hack, monospace, Courier New, Courier;
+  resize: none;
 }

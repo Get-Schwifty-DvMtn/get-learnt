@@ -7,7 +7,8 @@ class VeryHeader extends Component {
     super(props);
 
     this.state = {
-      testHeaders: 'stuffssfs'
+      testHeaders: '',
+      loggedIn: false
     };
   }
 
@@ -15,8 +16,11 @@ class VeryHeader extends Component {
     return (
       <div className="very-header-container">
         <nav className="wow_such_nav_bar">
-          <div className="link-wrapper">
-            <Link className="wow_such_nav_link" to="/">home</Link>
+          <div className="link-wrapper small-words">
+            <Link className="wow_such_nav_link" to="/">login</Link>
+          </div>
+          <div className="link-wrapper small-words">
+            <Link className="wow_such_nav_link" to="/home">home</Link>
           </div>
           <div className="link-wrapper">
             <Link className="wow_such_nav_link" to="wow">short answer</Link>
@@ -26,8 +30,36 @@ class VeryHeader extends Component {
           </div>
         </nav>
       </div>
+
     )
   }
 }
 
 export default VeryHeader;
+
+// Code for changin headers depending on if user is logged in or not
+/*{!this.state.loggedIn ?
+          <nav className="wow_such_nav_bar">
+            <div className="link-wrapper small-words">
+              <Link className="wow_such_nav_link" to="#">home</Link>
+            </div>
+            <div className="link-wrapper">
+              <Link className="wow_such_nav_link" to="#">about</Link>
+            </div>
+            <div className="link-wrapper">
+              <Link className="wow_such_nav_link" to="#">contact</Link>
+            </div>
+          </nav>
+          :
+          <nav className="wow_such_nav_bar">
+            <div className="link-wrapper small-words">
+              <Link className="wow_such_nav_link" to="/">home</Link>
+            </div>
+            <div className="link-wrapper">
+              <Link className="wow_such_nav_link" to="wow">short answer</Link>
+            </div>
+            <div className="link-wrapper">
+              <Link className="wow_such_nav_link" to="muchcode">code</Link>
+            </div>
+          </nav>
+        }*/
